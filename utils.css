@@ -1,0 +1,76 @@
+@media (max-width:600px) {
+    nav{
+        padding: 0 5vw;
+        height: 60px;
+    }
+    nav h2{
+        font-size: 6vw;
+    }
+    nav a{
+        font-size: 4vw;
+        display: none;
+    }
+    nav i{
+        display: none;
+        font-size: 6vw;
+    }
+    .container{
+        height: calc(100% - 60px);
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: 40%;
+        padding: 4vw 6vw;
+    }
+    .right{
+        width: 100%;
+        height:60%;
+        padding: 10vw 11vw;
+        margin-top: 5vh;
+    }
+    .left h1{
+        font-size: 7vw;
+        line-height: 11vw;
+    }
+    .left p{
+        font-size: 4vw;
+        width: 90%;
+        margin-top: 5vw;
+        margin-bottom: 6vw;
+    }
+    .left a{
+        display: none;
+    }
+    .section-2 h1{
+        font-size: 7vw;
+    }
+    .section-2 p,h2{
+        font-size: 5vw;
+    }
+    .wed{
+        align-items: center;
+        padding-left: -2%;
+        padding-right: 5%;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+    .items{
+        font-size: medium;
+    }
+    .contacts{
+        font-size: 7vw;
+    }
+    .contacts h1{
+        text-decoration: underline;
+    }
+    .contacts h3{
+        margin-top: 1vh;
+        padding-top: 1%;
+        font-size: 4vw;
+    }
+    .contacts h2{
+        font-size: 5vw;
+    }
+}

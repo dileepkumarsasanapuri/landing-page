@@ -1,0 +1,301 @@
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+  
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+  
+}
+nav{
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6vw;
+    background: transparent;
+    
+}
+.nav-part2{
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    gap: 4vw;
+    color:aliceblue;
+}
+nav h2{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+    font-size: 2vw;
+    color: aliceblue;
+}
+.navbar a{
+    font-size: 1.2vw;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+nav i{
+   font-weight: 800;
+    display: none;
+}
+.container{
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding: 0vw 5vw;
+}
+.container a{
+    font-size: 1.2vw;
+    color: aliceblue;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.left h1,.box h2{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(213, 211, 206);
+}
+.left{
+    height: 100%;
+    width: 65%;
+    padding: 7vw 8vw;
+
+}
+.left h1{
+    font-size: 2vw;
+    line-height: 3vw;
+
+}
+.left h1 span{
+
+    color: #e9e10f;
+}
+.left p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: rgb(119, 202, 223);
+    width: 80%;
+    margin-top: 1.45vw;
+    margin-bottom: 4vw;
+    font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+span{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: rgb(215, 228, 239);
+
+}
+.right{
+    height: 100%;
+    width: 35%;
+}
+.right img{
+    height: 80%;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(2, 8, 46, 0.919);
+
+    border-radius: 10px;
+    margin-top: 10vh;
+}
+.section-2{
+    height: 100%;
+    background-color: #535C91;
+    padding-top: 7vh;
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section-2 p{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6vh;
+}
+.box{
+    margin:12px 22px ;
+    min-width: 20vw;
+    border: 0px solid rgb(242, 238, 238);
+    text-align: center;
+    border-radius: 10px;
+}
+.box img{
+    height: 44vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(2, 8, 46, 0.919);
+}
+.btn{
+    padding: 4px 12px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: blue;
+}
+.section-2 h1{
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-size: 3vw;
+  font-style: normal;
+  color:  rgb(207, 222, 235);;
+}
+.section-2 p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    align-items: center;
+    margin-top: 1.45vw;
+    margin-bottom: 3vw;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    color:#e3e1af;
+
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+.contacts{
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+.contacts h1,h2,h3{
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 15px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+.contacts h1{
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2vw;
+    color: rgb(207, 222, 235);
+}
+.contacts h3{
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2vw;
+    gap: 2vw;
+    word-spacing: 0.5vw;
+    color: rgb(207, 222, 235);
+}
+.contacts h2{
+    font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.8vw;
+  color: rgb(207, 222, 235);
+}
+.return{
+    -webkit-appearance: button;
+    background-color: aliceblue;
+    position: fixed;
+    bottom: 6%;
+    right: 2%;
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 100px;    
+    overflow-wrap: hidden;
+    appearance: button;
+    text-decoration: none;
+}
+.return i{
+   align-items: center;
+   justify-content: center;
+   font-size: 40px;
+   font-weight: 900;
+    color: #191831;
+    padding-left: 15%;
+    padding-top: -90%;
+    padding-bottom: 10%;
+}
+.items{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 4vw;
+    font-size:40px ;
+    font-weight: 500;
+    background-color: rgba(240, 248, 255, 0.395);
+}
+.items h3{
+    justify-content: center;
+}
+.items a{
+    width: 4.8rem;
+    height: 4.8em;
+    overflow: hidden;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.container,.section-2,.contacts,html{
+	-webkit-animation: color-change-3x 4s linear infinite alternate both;
+	        animation: color-change-3x 4s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-3x {
+    0% {
+      background: #383e63;
+    }
+    50% {
+      background: #3d4886;
+    }
+    100% {
+      background: #626187;
+    }
+  }
+  @keyframes color-change-3x {
+    0% {
+      background: #383e63;
+    }
+    50% {
+      background: #3d4a93;
+    }
+    100% {
+      background: #6664a0;
+    
+    }
+  }
